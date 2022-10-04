@@ -1,0 +1,81 @@
+Xcursor.theme:	simple
+XCursor.size:	64
+*scrollBar:	false
+*.faceName:	Anonymous Pro:pixelsize=20:antialias=true
+URxvt.font: xft:Anonymous Pro:pixelsize=20:antialias=true:hinting=true
+URxvt.perl-ext-common: keyboard-select,usr-select,clipboard
+
+!! light black
+#define S_base03        #878787
+
+!! dark black
+#define S_base02        #444444
+
+!!green
+#define S_base01        #008700
+
+!! foreground
+#define S_base00        #444444
+
+!! light blue 
+#define S_base0         #005faf
+
+!! light cyan
+#define S_base1         #0087af
+
+!! light white 
+#define S_base2         #bcbcbc
+
+!! background
+#define S_base3         #eeeeee
+
+*.background:           S_base3
+*.foreground:           S_base00
+*.fadeColor:            S_base3
+*.cursorColor:          S_base00
+*.pointerColorBackground:S_base1
+*.pointerColorForeground:S_base01
+URxvt.background:	S_base3
+URxvt.foreground:	S_base00
+URxvt.cursorColor:	S_base00
+
+#define S_yellow        #d75f00
+#define S_orange        #d75f00
+#define S_red           #af0000
+#define S_magenta       #d70000
+#define S_violet        #d70087
+#define S_blue          #005f87
+#define S_cyan          #005f87
+#define S_green         #5f8700
+
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
+
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3

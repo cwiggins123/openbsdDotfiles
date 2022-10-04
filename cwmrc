@@ -1,0 +1,18 @@
+sticky yes
+
+autogroup 0 "termbar,termbar"
+# set border options
+borderwidth 2
+color activeborder grey
+color inactiveborder black
+fontname IBM Plex Mono
+
+gap 45 15 15 15
+
+htile 50
+vtile 50
+
+ignore "termbar"
+
+bind-key MS-space window-htile
+bind-key M-space window-vtile
