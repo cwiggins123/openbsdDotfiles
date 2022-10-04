@@ -1,0 +1,28 @@
+set barinpadding 0
+set barpadding 12 7
+set barbordercolor black
+set barborder 4
+set bgcolor #eeeeee
+set border 5
+set fgcolor #444444
+set ignoreresizehints 1
+set font "IBM Plex Mono:bold:size=10"
+set gap 10
+set onlyborder 1
+set padding 20 20 20 20
+
+bind L exec pkill -USR1 idle
+
+unbind k
+
+definekey top M-1 vselect 0
+definekey top M-2 vselect 1
+definekey top M-3 vselect 2
+definekey top M-4 vselect 3
+
+bind Tab focuslast
+bind grave focus
+bind  C-w exec firefox
+
+# center popups
+unmanage OpsnSSH Authentication Passphrase Request
